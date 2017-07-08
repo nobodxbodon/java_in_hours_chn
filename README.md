@@ -462,6 +462,21 @@ public String 回答(String 听到的) {
 ## 出错是难免的
 
 ## 为人民服务
+编译运行服务器:
+```
+$ javac chatbot/聊天服务.java
+$ java chatbot/聊天服务
+```
+运行客户端:
+```
+$ javac chatbot/聊天客户端.java
+$ java chatbot/聊天客户端 秘密哦
+我记住了
+$ java chatbot/聊天客户端 你是谁?
+你猜? 答案长度是3
+```
+
+扩展资料: JAX-WS, SOAP, REST
 
 待定:
 
