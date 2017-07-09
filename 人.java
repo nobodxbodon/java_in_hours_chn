@@ -4,6 +4,11 @@ public class 人 {
   float 身高 = 0.0f;
   private String 小秘密 = "";
   
+  public 人(String 姓名, int 年龄) {
+    this.姓名 = 姓名;
+    this.年龄 = 年龄;
+  }
+
   public void 自我介绍() {
     System.out.println("我叫" + 姓名 + ", 今年" + 年龄 + "岁");
   }
