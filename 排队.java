@@ -1,7 +1,7 @@
 class 排队 {
   public static void main(String[] 参数) {
     人[] 一队 = {
-      new 人("小明",14),
+      new 人("小明", 14),
       new 人("小红", 5),
       new 人("大黄", 12),
       new 人("阿牛", 9)
