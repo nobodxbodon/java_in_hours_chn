@@ -1,4 +1,4 @@
-class 投资回报 {
+class 投资回报类 {
   public static void main (String[] 参数) {
     float 账户余额 = 1000f;
     float 回报率 = 0.08f;

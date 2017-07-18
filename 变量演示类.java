@@ -1,4 +1,4 @@
-class 变量类型 {
+class 变量演示类 {
   public static void main (String[] 参数) {
     boolean 布尔量 = true; // true或false,真或假
     char 字符 = '好'; // 单个字符

@@ -1,10 +1,10 @@
-public class 人 {
+public class 人类 {
   String 姓名 = "无名氏";
   int 年龄 = 0;
   float 身高 = 0.0f;
   private String 小秘密 = "";
   
-  public 人(String 姓名, int 年龄) {
+  public 人类(String 姓名, int 年龄) {
     this.姓名 = 姓名;
     this.年龄 = 年龄;
   }

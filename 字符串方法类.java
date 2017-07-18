@@ -1,4 +1,4 @@
-class 字符串方法 {
+class 字符串方法类 {
   public static void main (String[] 参数) {
     String 字符串 = "去是go";
     String 搜索字符串 = "go";

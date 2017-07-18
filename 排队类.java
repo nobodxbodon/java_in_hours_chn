@@ -1,21 +1,21 @@
-class 排队 {
+class 排队类 {
   public static void main(String[] 参数) {
-    人[] 一队 = {
-      new 人("小明", 14),
-      new 人("小红", 5),
-      new 人("大黄", 12),
-      new 人("阿牛", 9)
+    人类[] 一队 = {
+      new 人类("小明", 14),
+      new 人类("小红", 5),
+      new 人类("大黄", 12),
+      new 人类("阿牛", 9)
     };
     
-    人[] 二队 = new 人[10];
-    二队[0] = new 人("阿狗", 11);
-    二队[1] = new 人("阿猫", 10);
+    人类[] 二队 = new 人类[10];
+    二队[0] = new 人类("阿狗", 11);
+    二队[1] = new 人类("阿猫", 10);
     // 2空着
-    二队[3] = new 人("阿猪", 9);
+    二队[3] = new 人类("阿猪", 9);
     
-    java.util.Arrays.sort(一队, new java.util.Comparator<人>() {
+    java.util.Arrays.sort(一队, new java.util.Comparator<人类>() {
       @Override
-      public int compare(人 甲, 人 乙) {
+      public int compare(人类 甲, 人类 乙) {
         return 甲.年龄 - 乙.年龄;
       }
     });

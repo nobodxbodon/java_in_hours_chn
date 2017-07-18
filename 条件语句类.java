@@ -1,4 +1,4 @@
-class 条件语句 {
+class 条件语句类 {
   public static void main (String[] 参数) {
     int 年龄 = 21;
     if (年龄 < 5) {

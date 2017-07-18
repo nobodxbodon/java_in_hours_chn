@@ -5,7 +5,7 @@ import java.util.HashMap;
  * $ java 小九九 6 4
  * 6乘4得24
  */
-class 小九九 {
+class 小九九类 {
   private static final HashMap<String, Integer> 乘法表 = new HashMap<>();
   
   // 构建整个乘法表, 包括反序, 比如2_8和8_2都有
