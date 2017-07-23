@@ -572,7 +572,30 @@ Arrays和Comparator都是java.util包里的类. 如果嫌这样不美观可以�
 
 扩展资料: 内存空间占用, 队列(queue), 栈(stack), 树(tree), 图(graph)
 
-## 出错是难免的
+## 十三 活久见 (建议时间: 25分钟)
+
+第四讲里, 用到了Integer.parseInt方法. 如果参数输错, 比如"啊呜",运行后会打印出一堆诡异的东西, 其中有NumberFormatException, 也提到"啊呜". 不用懂英文也能猜到这个输入有点问题了.
+
+这个NumberFormatException属于Exception, 俗语叫"异常", 但直译是"例外", 感觉后者的字面意思明确些. 比如这个把字符串转换成整数的方法, "啊呜"对它来说就是个束手无策的例外情况, 拿到手里既然处理不了就会把它"丢"出来. 丢出来就得"接住", 不然像前面那样就砸了. 下面的try ... catch 就是"试试看...接住(例外情况)...":
+```
+    int 数 = 0;
+    try {
+      数 = Integer.parseInt(参数[0]);
+      System.out.println(数 + "的平方根是" + Math.sqrt(数));
+    } catch (NumberFormatException e) {
+      System.out.println(参数[0] + "看着不像整数");
+      return;
+    } finally {
+      System.out.println("彩蛋");
+    }
+```
+最后的finally里面可以写无论例外情况还是正常情况都需要运行的内容. "这和不用finally,直接放在后面有啥区别?"
+
+试试不用finally包着运行一个例外情况就知道了. catch里虽然有return, 但程序退出之前还是运行了"彩蛋".
+
+在"人类.回答"方法里丢了一种新建的Exception"听不懂例外". 具体请看"人类","听不懂例外",以及"世界类"中如何接住这个例外并处理的.
+
+扩展资料: Error, (Un)checkedException
 
 ## 为人民服务
 

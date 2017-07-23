@@ -8,7 +8,12 @@ class 世界类 {
     
     小白.自我介绍();
     小白.长大();
-    System.out.println(小白.回答("这是咱俩的秘密"));
-    System.out.println(小白.回答("你住哪里啊?"));
+    try {
+      System.out.println(小白.回答("这是咱俩的秘密"));
+      System.out.println(小白.回答("你住哪里啊?"));
+      System.out.println(小白.回答("%#^$#@$!"));
+    } catch (听不懂例外 e) {
+      System.out.println(e.getMessage());
+    }
   }
 }
