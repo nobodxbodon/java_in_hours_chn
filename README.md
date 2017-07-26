@@ -646,16 +646,16 @@ Arrays和Comparator都是java.util包里的类. 如果嫌这样不美观可以�
 
 编译运行服务器:
 ```
-$ javac chatbot/聊天服务.java
-$ java chatbot/聊天服务
+$ javac chatbot/聊天服务类.java
+$ java chatbot/聊天服务类
 服务启动在:http://127.0.0.1:5335/service
 ```
 运行客户端:
 ```
-$ javac chatbot/聊天客户端.java
-$ java chatbot/聊天客户端 秘密哦
+$ javac chatbot/聊天客户端类.java
+$ java chatbot/聊天客户端类 秘密哦
 我记住了
-$ java chatbot/聊天客户端 你是谁?
+$ java chatbot/聊天客户端类 你是谁?
 你猜? 答案长度是3
 ```
 
@@ -713,7 +713,7 @@ $ java -enableassertions 人测试类
 
 4 命名
 - 包名用小写英文或中文, 不用下划线
-- 类名尽量用名词或名词短语. 用"类"结尾, 便于和一般变量名区别. 测试类用"测试类"结尾.
+- 类名尽量用名词或名词短语. 用"类"结尾, 便于和一般变量名区别. 测试类用"测试类"结尾. (示例代码的类已经重命名)
 - 接口(interface)名用"接口"结尾
 - 方法命名尽量用动词开头
 - 常量命名以"常量_"作前缀, 注意只用在"真"常量上, 就是初始化后不能被改变的量.
