@@ -1,5 +1,4 @@
-
-public class 人测试类 {
+class 人测试类 {
   public static void main (String[] 参数) throws 听不懂例外 {
     人类 无名 = new 人类("", -1);
     应该相等("我记住了", 无名.回答("秘密哦"), "秘密应该记住");
