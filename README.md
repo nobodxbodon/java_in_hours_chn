@@ -1,7 +1,7 @@
 ## 共享协议
 本作使用[署名-非商业使用-禁止演绎](https://creativecommons.org/licenses/by-nc-nd/4.0/)协议共享。
 
-# Java编程一天入门 v0.0.1 alpha
+# Java编程一天入门 v0.0.1 alpha (这里不再更新 已fork到[中文编程讨论组](https://github.com/program-in-chinese/java_in_hours_chn)继续)
 
 ## 前言
 
